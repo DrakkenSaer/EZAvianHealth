@@ -1,0 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* ===================== Universal ===================== */
+
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  background: $gray-light;
+}
+
+/* layout CSS */
+
+#spree-header {
+    background: image-url("pigeon-header-bg.jpg") no-repeat !important;
+    background-size: cover;
+}

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     get "/about", to: "pages#show", page: "about"
     get "/contact", to: "pages#show", page: "contact"
     get "/faq", to: "pages#show", page: "faq"
-    get "/store", to: "home#index"
+    get "/product_info", to: "pages#show", page: "product_info"
   end
 
 

@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  store: "Store"
   faq: "FAQ"
   about_us: "About Us"
   contact_us: "Contact Us"
+  product_info: "Product Info"
