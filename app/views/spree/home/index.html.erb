@@ -9,3 +9,9 @@
     We believe in the totally natural approach, eliminating the use of antibiotics and
     medication so prevalent among the keepers of our feathered friends.
 </p>
+
+<div data-hook="homepage_products" class="buffer-padding-large">
+  <% cache(cache_key_for_products) do %>
+    <%= render partial: 'spree/shared/products', locals: { products: @products } %>
+  <% end %>
+</div>

@@ -1,0 +1,98 @@
+/* Positional CSS */
+
+.buffer-padding-large {
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+}
+.buffer-padding-large-horizontal {
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+.buffer-padding-medium {
+	padding-top: 1.75em;
+	padding-bottom: 1.75em;
+}
+.buffer-padding-medium-horizontal {
+	padding-left: 1.75em;
+	padding-right: 1.75em;
+}
+.buffer-padding-small {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.buffer-padding-small-horizontal {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.buffer-padding-extra-small {
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+}
+.buffer-padding-extra-small-horizontal {
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+}
+.buffer-padding-tiny {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+.buffer-padding-tiny-horizontal {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+.buffer-margin-extra-large {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+.buffer-margin-large {
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+.buffer-margin-large-horizontal {
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+}
+.buffer-margin-medium {
+	margin-top: 1.75em;
+	margin-bottom: 1.75em;
+}
+.buffer-margin-medium-horizontal {
+	margin-left: 1.75em;
+	margin-right: 1.75em;
+}
+.buffer-margin-small {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.buffer-margin-small-horizontal {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.buffer-margin-extra-small {
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+}
+.buffer-margin-extra-small-horizontal {
+	margin-left: 0.75em;
+	margin-right: 0.75em;
+}
+.buffer-margin-tiny {
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+.buffer-margin-tiny-horizontal {
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+.no-padding { padding: 0 !important; }
+.no-padding-left { padding-left: 0; }
+.no-padding-right { padding-right: 0; }
+.no-padding-top { padding-top: 0; }
+.no-padding-bottom { padding-bottom: 0; }
+.no-margin { margin: 0; }
+.no-margin-top { margin-top: 0; }
+.no-margin-bottom { margin-bottom: 0; }
+.no-margin-right { margin-right: 0; }
+.no-margin-left { margin-left: 0; }

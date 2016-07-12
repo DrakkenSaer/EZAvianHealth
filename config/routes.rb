@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   mount Spree::Core::Engine, at: '/'
 
   Spree::Core::Engine.routes.prepend do
-    get "/", to: "pages#show", page: "home"
     get "/about", to: "pages#show", page: "about"
     get "/contact", to: "pages#show", page: "contact"
     get "/faq", to: "pages#show", page: "faq"
